@@ -1,0 +1,13 @@
+﻿,count,mean,std,min,25%,50%,75%,max
+HSS_Continuous,0.0,,,,,,,
+Log_RCR,0.0,,,,,,,
+Hit_Rate_10_year_cat,0.0,,,,,,,
+log_team_size,0.0,,,,,,,
+log_prior_knowledge,0.0,,,,,,,
+reference_count_total,0.0,,,,,,,
+reference_count_with_primary_topic,0.0,,,,,,,
+reference_topic_coverage,0.0,,,,,,,
+reference_field_diversity,0.0,,,,,,,
+reference_entropy,0.0,,,,,,,
+hss_reference_share,0.0,,,,,,,
+cs_core_reference_share,0.0,,,,,,,

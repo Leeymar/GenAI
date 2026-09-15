@@ -1,0 +1,167 @@
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     Hit_Rate_10_year_cat   R-squared:                       0.219
+Model:                              OLS   Adj. R-squared:                  0.218
+Method:                   Least Squares   F-statistic:                     2127.
+Date:                  Wed, 10 Jun 2026   Prob (F-statistic):               0.00
+Time:                          01:48:05   Log-Likelihood:                -83041.
+No. Observations:                138824   AIC:                         1.664e+05
+Df Residuals:                    138682   BIC:                         1.678e+05
+Df Model:                           141                                         
+Covariance Type:                    HC1                                         
+===================================================================================================================
+                                                      coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                           0.1412      0.070      2.004      0.045       0.003       0.279
+C(stage)[T.Phase2]                                 -0.0985      0.020     -4.987      0.000      -0.137      -0.060
+C(stage)[T.Phase3]                                  0.1792      0.020      9.113      0.000       0.141       0.218
+C(arxiv_primary_category)[T.astro-ph.EP]           -0.0272      0.137     -0.198      0.843      -0.296       0.242
+C(arxiv_primary_category)[T.astro-ph.GA]           -0.0231      0.096     -0.241      0.810      -0.211       0.165
+C(arxiv_primary_category)[T.astro-ph.HE]            0.1588      0.131      1.210      0.226      -0.099       0.416
+C(arxiv_primary_category)[T.astro-ph.IM]            0.1036      0.079      1.314      0.189      -0.051       0.258
+C(arxiv_primary_category)[T.astro-ph.SR]           -0.1047      0.125     -0.840      0.401      -0.349       0.140
+C(arxiv_primary_category)[T.cond-mat.dis-nn]        0.1496      0.110      1.357      0.175      -0.067       0.366
+C(arxiv_primary_category)[T.cond-mat.mes-hall]      0.5346      0.087      6.139      0.000       0.364       0.705
+C(arxiv_primary_category)[T.cond-mat.mtrl-sci]     -0.1744      0.074     -2.366      0.018      -0.319      -0.030
+C(arxiv_primary_category)[T.cond-mat.other]         0.7470      0.224      3.338      0.001       0.308       1.186
+C(arxiv_primary_category)[T.cond-mat.quant-gas]     0.5402      0.085      6.342      0.000       0.373       0.707
+C(arxiv_primary_category)[T.cond-mat.soft]          0.1970      0.122      1.621      0.105      -0.041       0.435
+C(arxiv_primary_category)[T.cond-mat.stat-mech]     0.1751      0.109      1.606      0.108      -0.039       0.389
+C(arxiv_primary_category)[T.cond-mat.str-el]        0.4176      0.159      2.633      0.008       0.107       0.728
+C(arxiv_primary_category)[T.cond-mat.supr-con]      0.2757      0.275      1.001      0.317      -0.264       0.815
+C(arxiv_primary_category)[T.cs.AI]                  0.2918      0.068      4.309      0.000       0.159       0.425
+C(arxiv_primary_category)[T.cs.AR]                  0.2062      0.070      2.927      0.003       0.068       0.344
+C(arxiv_primary_category)[T.cs.CC]                  0.4454      0.115      3.867      0.000       0.220       0.671
+C(arxiv_primary_category)[T.cs.CE]                  0.2507      0.073      3.437      0.001       0.108       0.394
+C(arxiv_primary_category)[T.cs.CG]                  0.6330      0.119      5.328      0.000       0.400       0.866
+C(arxiv_primary_category)[T.cs.CL]                  0.1886      0.068      2.790      0.005       0.056       0.321
+C(arxiv_primary_category)[T.cs.CR]                  0.2541      0.068      3.735      0.000       0.121       0.387
+C(arxiv_primary_category)[T.cs.CV]                  0.1516      0.068      2.242      0.025       0.019       0.284
+C(arxiv_primary_category)[T.cs.CY]                 -0.0800      0.069     -1.166      0.244      -0.214       0.054
+C(arxiv_primary_category)[T.cs.DB]                  0.2312      0.071      3.278      0.001       0.093       0.369
+C(arxiv_primary_category)[T.cs.DC]                  0.2051      0.069      2.955      0.003       0.069       0.341
+C(arxiv_primary_category)[T.cs.DL]                  0.2573      0.079      3.273      0.001       0.103       0.411
+C(arxiv_primary_category)[T.cs.DM]                  0.5949      0.142      4.181      0.000       0.316       0.874
+C(arxiv_primary_category)[T.cs.DS]                  0.1902      0.087      2.175      0.030       0.019       0.362
+C(arxiv_primary_category)[T.cs.ET]                  0.1725      0.090      1.916      0.055      -0.004       0.349
+C(arxiv_primary_category)[T.cs.FL]                  0.0812      0.136      0.597      0.551      -0.185       0.348
+C(arxiv_primary_category)[T.cs.GL]                  0.5019      0.232      2.167      0.030       0.048       0.956
+C(arxiv_primary_category)[T.cs.GR]                  0.3603      0.071      5.104      0.000       0.222       0.499
+C(arxiv_primary_category)[T.cs.GT]                  0.4212      0.082      5.128      0.000       0.260       0.582
+C(arxiv_primary_category)[T.cs.HC]                 -0.0585      0.068     -0.858      0.391      -0.192       0.075
+C(arxiv_primary_category)[T.cs.IR]                  0.2135      0.068      3.138      0.002       0.080       0.347
+C(arxiv_primary_category)[T.cs.IT]                  0.1165      0.068      1.705      0.088      -0.017       0.250
+C(arxiv_primary_category)[T.cs.LG]                  0.2103      0.068      3.110      0.002       0.078       0.343
+C(arxiv_primary_category)[T.cs.LO]                  0.2058      0.087      2.370      0.018       0.036       0.376
+C(arxiv_primary_category)[T.cs.MA]                  0.4274      0.070      6.092      0.000       0.290       0.565
+C(arxiv_primary_category)[T.cs.MM]                  0.2147      0.071      3.013      0.003       0.075       0.354
+C(arxiv_primary_category)[T.cs.MS]                  0.8055      0.125      6.427      0.000       0.560       1.051
+C(arxiv_primary_category)[T.cs.NE]                  0.1085      0.072      1.514      0.130      -0.032       0.249
+C(arxiv_primary_category)[T.cs.NI]                  0.2156      0.070      3.065      0.002       0.078       0.353
+C(arxiv_primary_category)[T.cs.OH]                  0.5182      0.137      3.772      0.000       0.249       0.787
+C(arxiv_primary_category)[T.cs.OS]                 -0.0510      0.115     -0.442      0.658      -0.277       0.175
+C(arxiv_primary_category)[T.cs.PF]                  0.2514      0.097      2.600      0.009       0.062       0.441
+C(arxiv_primary_category)[T.cs.PL]                  0.1559      0.077      2.012      0.044       0.004       0.308
+C(arxiv_primary_category)[T.cs.RO]                  0.1975      0.068      2.900      0.004       0.064       0.331
+C(arxiv_primary_category)[T.cs.SC]                  0.6154      0.091      6.765      0.000       0.437       0.794
+C(arxiv_primary_category)[T.cs.SD]                  0.1985      0.068      2.906      0.004       0.065       0.332
+C(arxiv_primary_category)[T.cs.SE]                  0.2282      0.068      3.356      0.001       0.095       0.361
+C(arxiv_primary_category)[T.cs.SI]                  0.1985      0.072      2.773      0.006       0.058       0.339
+C(arxiv_primary_category)[T.econ.EM]                0.2959      0.107      2.758      0.006       0.086       0.506
+C(arxiv_primary_category)[T.econ.GN]                0.1626      0.085      1.922      0.055      -0.003       0.328
+C(arxiv_primary_category)[T.econ.TH]                0.2191      0.133      1.648      0.099      -0.041       0.480
+C(arxiv_primary_category)[T.eess.AS]                0.1687      0.068      2.465      0.014       0.035       0.303
+C(arxiv_primary_category)[T.eess.IV]                0.0285      0.068      0.419      0.675      -0.105       0.162
+C(arxiv_primary_category)[T.eess.SP]                0.1100      0.069      1.594      0.111      -0.025       0.245
+C(arxiv_primary_category)[T.eess.SY]                0.1829      0.072      2.528      0.011       0.041       0.325
+C(arxiv_primary_category)[T.gr-qc]                  0.4196      0.088      4.776      0.000       0.247       0.592
+C(arxiv_primary_category)[T.hep-ex]                -0.1429      0.092     -1.547      0.122      -0.324       0.038
+C(arxiv_primary_category)[T.hep-lat]                0.2678      0.127      2.102      0.036       0.018       0.517
+C(arxiv_primary_category)[T.hep-ph]                -0.1875      0.080     -2.335      0.020      -0.345      -0.030
+C(arxiv_primary_category)[T.hep-th]                 0.3719      0.153      2.423      0.015       0.071       0.673
+C(arxiv_primary_category)[T.math-ph]                0.5567      0.180      3.087      0.002       0.203       0.910
+C(arxiv_primary_category)[T.math.AC]                0.4278      0.068      6.333      0.000       0.295       0.560
+C(arxiv_primary_category)[T.math.AG]                0.7709      0.080      9.636      0.000       0.614       0.928
+C(arxiv_primary_category)[T.math.AP]                0.3167      0.095      3.321      0.001       0.130       0.504
+C(arxiv_primary_category)[T.math.AT]                0.4868      0.068      7.207      0.000       0.354       0.619
+C(arxiv_primary_category)[T.math.CO]                0.6645      0.084      7.882      0.000       0.499       0.830
+C(arxiv_primary_category)[T.math.CT]                0.6557      0.114      5.760      0.000       0.433       0.879
+C(arxiv_primary_category)[T.math.DG]                0.6065      0.073      8.287      0.000       0.463       0.750
+C(arxiv_primary_category)[T.math.DS]                0.4375      0.100      4.385      0.000       0.242       0.633
+C(arxiv_primary_category)[T.math.FA]                0.7165      0.081      8.872      0.000       0.558       0.875
+C(arxiv_primary_category)[T.math.GM]                0.8835      0.097      9.103      0.000       0.693       1.074
+C(arxiv_primary_category)[T.math.GR]                0.9036      0.068     13.365      0.000       0.771       1.036
+C(arxiv_primary_category)[T.math.GT]                0.6567      0.093      7.026      0.000       0.474       0.840
+C(arxiv_primary_category)[T.math.HO]                0.5185      0.110      4.708      0.000       0.303       0.734
+C(arxiv_primary_category)[T.math.LO]                0.6557      0.141      4.635      0.000       0.378       0.933
+C(arxiv_primary_category)[T.math.NA]                0.1676      0.075      2.229      0.026       0.020       0.315
+C(arxiv_primary_category)[T.math.NT]                0.6761      0.086      7.854      0.000       0.507       0.845
+C(arxiv_primary_category)[T.math.OC]                0.0956      0.076      1.266      0.206      -0.052       0.244
+C(arxiv_primary_category)[T.math.PR]                0.3536      0.103      3.419      0.001       0.151       0.556
+C(arxiv_primary_category)[T.math.SP]                0.4173      0.068      6.177      0.000       0.285       0.550
+C(arxiv_primary_category)[T.math.ST]                0.3780      0.084      4.513      0.000       0.214       0.542
+C(arxiv_primary_category)[T.nlin.AO]                0.6670      0.093      7.154      0.000       0.484       0.850
+C(arxiv_primary_category)[T.nlin.CD]                0.0048      0.270      0.018      0.986      -0.524       0.534
+C(arxiv_primary_category)[T.nlin.CG]                0.5959      0.068      8.818      0.000       0.463       0.728
+C(arxiv_primary_category)[T.nlin.PS]                0.4013      0.189      2.122      0.034       0.031       0.772
+C(arxiv_primary_category)[T.nucl-ex]                0.3164      0.085      3.744      0.000       0.151       0.482
+C(arxiv_primary_category)[T.nucl-th]                0.5347      0.086      6.221      0.000       0.366       0.703
+C(arxiv_primary_category)[T.physics.acc-ph]         0.1272      0.176      0.724      0.469      -0.217       0.472
+C(arxiv_primary_category)[T.physics.ao-ph]          0.0672      0.087      0.775      0.438      -0.103       0.237
+C(arxiv_primary_category)[T.physics.app-ph]         0.2060      0.106      1.947      0.052      -0.001       0.413
+C(arxiv_primary_category)[T.physics.atom-ph]        0.5922      0.094      6.310      0.000       0.408       0.776
+C(arxiv_primary_category)[T.physics.bio-ph]         0.3357      0.139      2.424      0.015       0.064       0.607
+C(arxiv_primary_category)[T.physics.chem-ph]       -0.1346      0.080     -1.675      0.094      -0.292       0.023
+C(arxiv_primary_category)[T.physics.class-ph]       0.4362      0.068      6.458      0.000       0.304       0.569
+C(arxiv_primary_category)[T.physics.comp-ph]       -0.1110      0.079     -1.401      0.161      -0.266       0.044
+C(arxiv_primary_category)[T.physics.data-an]        0.3010      0.123      2.438      0.015       0.059       0.543
+C(arxiv_primary_category)[T.physics.ed-ph]          0.2315      0.089      2.594      0.009       0.057       0.407
+C(arxiv_primary_category)[T.physics.flu-dyn]        0.1335      0.077      1.743      0.081      -0.017       0.284
+C(arxiv_primary_category)[T.physics.gen-ph]         0.5117      0.086      5.942      0.000       0.343       0.681
+C(arxiv_primary_category)[T.physics.geo-ph]         0.2033      0.083      2.460      0.014       0.041       0.365
+C(arxiv_primary_category)[T.physics.ins-det]        0.1516      0.095      1.588      0.112      -0.036       0.339
+C(arxiv_primary_category)[T.physics.med-ph]         0.0377      0.081      0.463      0.644      -0.122       0.197
+C(arxiv_primary_category)[T.physics.optics]         0.1350      0.084      1.612      0.107      -0.029       0.299
+C(arxiv_primary_category)[T.physics.plasm-ph]       0.1588      0.129      1.234      0.217      -0.093       0.411
+C(arxiv_primary_category)[T.physics.pop-ph]         0.4399      0.302      1.455      0.146      -0.153       1.032
+C(arxiv_primary_category)[T.physics.soc-ph]         0.0606      0.089      0.682      0.496      -0.114       0.235
+C(arxiv_primary_category)[T.physics.space-ph]       0.0086      0.253      0.034      0.973      -0.488       0.505
+C(arxiv_primary_category)[T.q-bio.BM]              -0.1586      0.074     -2.151      0.031      -0.303      -0.014
+C(arxiv_primary_category)[T.q-bio.CB]               0.2786      0.190      1.467      0.142      -0.094       0.651
+C(arxiv_primary_category)[T.q-bio.GN]              -0.0461      0.083     -0.557      0.578      -0.208       0.116
+C(arxiv_primary_category)[T.q-bio.MN]               0.2551      0.130      1.968      0.049       0.001       0.509
+C(arxiv_primary_category)[T.q-bio.NC]               0.2102      0.073      2.894      0.004       0.068       0.353
+C(arxiv_primary_category)[T.q-bio.OT]               0.3535      0.134      2.630      0.009       0.090       0.617
+C(arxiv_primary_category)[T.q-bio.PE]               0.2255      0.148      1.524      0.128      -0.065       0.516
+C(arxiv_primary_category)[T.q-bio.QM]              -0.1388      0.073     -1.903      0.057      -0.282       0.004
+C(arxiv_primary_category)[T.q-bio.TO]               0.4836      0.109      4.439      0.000       0.270       0.697
+C(arxiv_primary_category)[T.q-fin.CP]               0.0599      0.086      0.700      0.484      -0.108       0.227
+C(arxiv_primary_category)[T.q-fin.GN]              -0.0322      0.126     -0.255      0.799      -0.279       0.215
+C(arxiv_primary_category)[T.q-fin.MF]               0.4709      0.104      4.532      0.000       0.267       0.675
+C(arxiv_primary_category)[T.q-fin.PM]               0.3289      0.106      3.092      0.002       0.120       0.537
+C(arxiv_primary_category)[T.q-fin.PR]               0.6777      0.082      8.233      0.000       0.516       0.839
+C(arxiv_primary_category)[T.q-fin.RM]               0.2632      0.124      2.129      0.033       0.021       0.505
+C(arxiv_primary_category)[T.q-fin.ST]               0.2735      0.087      3.148      0.002       0.103       0.444
+C(arxiv_primary_category)[T.q-fin.TR]               0.1631      0.116      1.406      0.160      -0.064       0.390
+C(arxiv_primary_category)[T.quant-ph]               0.0163      0.071      0.229      0.819      -0.123       0.156
+C(arxiv_primary_category)[T.stat.AP]                0.0325      0.094      0.347      0.729      -0.151       0.216
+C(arxiv_primary_category)[T.stat.CO]                0.3252      0.090      3.626      0.000       0.149       0.501
+C(arxiv_primary_category)[T.stat.ME]                0.3894      0.078      4.973      0.000       0.236       0.543
+C(arxiv_primary_category)[T.stat.ML]                0.1805      0.069      2.633      0.008       0.046       0.315
+C(arxiv_primary_category)[T.stat.OT]                0.6899      0.079      8.745      0.000       0.535       0.845
+HSS_Continuous                                      0.0300      0.001     25.483      0.000       0.028       0.032
+social_topic_title_concepts                        -0.2172      0.003    -84.882      0.000      -0.222      -0.212
+log_team_size                                       0.2858      0.003     89.306      0.000       0.280       0.292
+log_prior_knowledge                                -0.1042      0.001    -84.510      0.000      -0.107      -0.102
+HSS_Diversity                                      -0.4613      0.017    -27.783      0.000      -0.494      -0.429
+==============================================================================
+Omnibus:                    84173.898   Durbin-Watson:                   1.643
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7949.286
+Skew:                           0.102   Prob(JB):                         0.00
+Kurtosis:                       1.846   Cond. No.                     3.16e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 3.16e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

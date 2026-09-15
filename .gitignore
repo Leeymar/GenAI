@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Cache / Logs
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# =========================
+# Build
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Large datasets - keep locally
+# =========================
+data_process/DID_authors/Author_Global_Metadata_90k.jsonl
+data_process/DID_authors/Author_Year_Panel_for_DID.jsonl
+
+DID实验/MASTER_AUTHOR_PROFILES_12YEARS.csv
+
+data_scrap_v2/stage_2/phase2_hybrid_cleaned.jsonl
+data_scrap_v2/stage_3/phase3_newcomers_scopus_pwfc.jsonl
+data_scrap_v2/stage_3/phase3_newcomers_scopus_pwfc_FIXED.jsonl
+data_scrap_v2/stage_3/phase3_hybrid_cleaned.jsonl
+
+dataset_scarp/stage_2/phase2_hybrid_cleaned.jsonl
+dataset_scarp/stage_3/phase3_newcomers_scopus_pwfc.jsonl

@@ -1,0 +1,8 @@
+panel,variable,display_name,N,Mean,SD,Min,Max
+Panel A: Outcome Variables,Log_RCR,Log\_RCR,138829,0.25518901448080067,0.5692300688434178,0.0,8.460806117209025
+Panel A: Outcome Variables,Hit_Rate_10_year_cat,Hit\_Rate\_10\_year\_cat,138829,0.4556036562965951,0.4980268579680785,0.0,1.0
+Panel A: Outcome Variables,Any_Citation,Any\_Citation,138829,0.3465342255580606,0.4758675101511685,0.0,1.0
+Panel B: Core Explanatory Variables,HSS_Continuous,HSS\_Continuous,138829,0.6828379805372077,1.282056169777464,0.0,10.001
+Panel B: Core Explanatory Variables,HSS_Diversity,HSS\_Diversity,138829,0.038673403297570616,0.08559719467136037,0.0,0.5000500000000001
+Panel B: Core Explanatory Variables,has_hss_concepts,has\_hss\_concepts,138829,0.38950075272457485,0.4876388306829867,0.0,1.0
+Panel C: Controls,Log_Team_Size,Log(Team\_Size),138829,1.7047024271211175,0.4750451497270031,0.6931471805599453,4.61512051684126

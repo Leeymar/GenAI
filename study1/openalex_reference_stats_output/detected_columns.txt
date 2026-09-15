@@ -1,0 +1,79 @@
+Detected key columns
+============================================================
+status_col = None
+year_col = year
+type_col = arxiv_type
+source_col = None
+work_id_col = work_id
+reference_count_total_col = reference_count_total
+reference_count_with_primary_topic_col = reference_count_with_primary_topic
+reference_count_missing_primary_topic_col = reference_count_missing_primary_topic
+reference_field_diversity_col = reference_field_diversity
+reference_entropy_col = reference_entropy
+hss_reference_share_col = hss_reference_share
+cs_core_reference_share_col = cs_core_reference_share
+
+
+All columns
+============================================================
+work_id
+stage
+arxiv_id
+arxiv_primary_category
+arxiv_type
+total_authors
+team_hss_dna_pct
+clean_work_id
+citations
+year
+yearly_mean
+RCR
+Log_RCR
+Reference_Count
+Prior_Knowledge_Stock
+HSS_Diversity
+HSS_Continuous
+log_team_size
+log_prior_knowledge
+HSS_Bin
+Hit_Rate_10_year
+Hit_Rate_10_year_cat
+title
+publication_year_phase
+concepts_norm_str
+has_hss_concepts
+Socially_Embedded_Topic
+phase_match_flag
+Citation_Entropy
+Citation_Field_Diversity
+Citing_Profile_Coverage
+Citing_Profile_Present
+HSS_Citing_Share
+NonCS_Citation_Share
+Total_Citing_Profile_Count
+citing_missing_flag
+InternalRef_Total
+InternalRef_Matched
+InternalRef_HSS_Matched
+InternalRef_Coverage
+HSS_Reference_Share_Internal_MatchedBase
+HSS_Reference_Share_Internal_TotalBase
+RefMeta_Total
+RefMeta_Matched
+RefMeta_Coverage
+Mean_Reference_Age
+Median_Reference_Age
+Recent_Reference_Share_3y
+Mean_Log_Ref_Citations
+Median_Log_Ref_Citations
+citing_disciplines_json
+referenced_works_json
+reference_count_total
+reference_count_with_primary_topic
+reference_count_missing_primary_topic
+reference_field_diversity
+reference_entropy
+hss_reference_share
+cs_core_reference_share
+reference_field_counts_json
+processed_at_utc

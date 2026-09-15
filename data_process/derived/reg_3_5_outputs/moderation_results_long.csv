@@ -1,0 +1,41 @@
+﻿y_var,y_label,moderator,moderator_label,model_type,n_obs,interaction_term,interaction_coef,interaction_se,interaction_p,fit_stat_name,fit_stat,formula,note,interaction_fmt
+Log_RCR,Log_RCR_p,reference_field_diversity,参考文献学科数量,OLS,56800,HSS_Continuous:reference_field_diversity,-0.008034420853733454,0.00126241847638079,1.961712851902461e-10,R_squared,0.11528810408706736,Log_RCR ~ HSS_Continuous * reference_field_diversity + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0080***
+(0.0013)"
+Log_RCR,Log_RCR_p,reference_entropy,参考文献学科熵,OLS,15845,HSS_Continuous:reference_entropy,0.014605875280587294,0.010212792221669962,0.15267255386628775,R_squared,0.08133476891082336,Log_RCR ~ HSS_Continuous * reference_entropy + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0146
+(0.0102)"
+Log_RCR,Log_RCR_p,hss_reference_share,HSS参考文献占比,OLS,15845,HSS_Continuous:hss_reference_share,0.05876753557122892,0.018776768332574176,0.001749251633236371,R_squared,0.08165061270424989,Log_RCR ~ HSS_Continuous * hss_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0588***
+(0.0188)"
+Log_RCR,Log_RCR_p,cs_core_reference_share,CS核心参考文献占比,OLS,15845,HSS_Continuous:cs_core_reference_share,-0.009555238154819573,0.0160035131998969,0.5504597899116215,R_squared,0.08474742313087702,Log_RCR ~ HSS_Continuous * cs_core_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0096
+(0.0160)"
+Hit_Rate_10_year_cat,Hit{10}_p,reference_field_diversity,参考文献学科数量,OLS,56800,HSS_Continuous:reference_field_diversity,-0.001492940462355789,0.0009369603379853394,0.11107339060787416,R_squared,0.5349180212808771,Hit_Rate_10_year_cat ~ HSS_Continuous * reference_field_diversity + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0015
+(0.0009)"
+Hit_Rate_10_year_cat,Hit{10}_p,reference_entropy,参考文献学科熵,OLS,15845,HSS_Continuous:reference_entropy,0.0028728378521323426,0.006672613227228683,0.6668016823091195,R_squared,0.07568496639346134,Hit_Rate_10_year_cat ~ HSS_Continuous * reference_entropy + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0029
+(0.0067)"
+Hit_Rate_10_year_cat,Hit{10}_p,hss_reference_share,HSS参考文献占比,OLS,15845,HSS_Continuous:hss_reference_share,0.015662116076011725,0.01317972372398706,0.23469580380709532,R_squared,0.07575865172126106,Hit_Rate_10_year_cat ~ HSS_Continuous * hss_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0157
+(0.0132)"
+Hit_Rate_10_year_cat,Hit{10}_p,cs_core_reference_share,CS核心参考文献占比,OLS,15845,HSS_Continuous:cs_core_reference_share,-0.007710167938474726,0.00932760018532751,0.4084654205768772,R_squared,0.07738590578109394,Hit_Rate_10_year_cat ~ HSS_Continuous * cs_core_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0077
+(0.0093)"
+Citation_Field_Diversity,Citation_Field_Diversity_p,reference_field_diversity,参考文献学科数量,OLS,56755,HSS_Continuous:reference_field_diversity,-0.07039399853785554,0.00978839190721179,6.404602553639333e-13,R_squared,0.35637949948772074,Citation_Field_Diversity ~ HSS_Continuous * reference_field_diversity + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0704***
+(0.0098)"
+Citation_Field_Diversity,Citation_Field_Diversity_p,reference_entropy,参考文献学科熵,OLS,15843,HSS_Continuous:reference_entropy,0.19238452420016136,0.07778836758541655,0.013391720781209232,R_squared,0.17881502654833636,Citation_Field_Diversity ~ HSS_Continuous * reference_entropy + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.1924**
+(0.0778)"
+Citation_Field_Diversity,Citation_Field_Diversity_p,hss_reference_share,HSS参考文献占比,OLS,15843,HSS_Continuous:hss_reference_share,0.3421318159401683,0.16780708770305483,0.04146599083841632,R_squared,0.17861499737797482,Citation_Field_Diversity ~ HSS_Continuous * hss_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.3421**
+(0.1678)"
+Citation_Field_Diversity,Citation_Field_Diversity_p,cs_core_reference_share,CS核心参考文献占比,OLS,15843,HSS_Continuous:cs_core_reference_share,0.02812613147867219,0.11841545980595616,0.812252806162326,R_squared,0.18267532275678144,Citation_Field_Diversity ~ HSS_Continuous * cs_core_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0281
+(0.1184)"
+HSS_Citing_Share,HSS_Citing_Share_p,reference_field_diversity,参考文献学科数量,OLS,56755,HSS_Continuous:reference_field_diversity,-0.0008052012196031765,0.00041801047330409434,0.05407061401365373,R_squared,0.2003758405609093,HSS_Citing_Share ~ HSS_Continuous * reference_field_diversity + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0008*
+(0.0004)"
+HSS_Citing_Share,HSS_Citing_Share_p,reference_entropy,参考文献学科熵,OLS,15843,HSS_Continuous:reference_entropy,0.008692461244060635,0.003204930085657994,0.0066835114418077575,R_squared,0.13358820035244745,HSS_Citing_Share ~ HSS_Continuous * reference_entropy + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0087***
+(0.0032)"
+HSS_Citing_Share,HSS_Citing_Share_p,hss_reference_share,HSS参考文献占比,OLS,15843,HSS_Continuous:hss_reference_share,-0.014036216530774701,0.00737798157068085,0.05711278353639606,R_squared,0.13975516227756846,HSS_Citing_Share ~ HSS_Continuous * hss_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0140*
+(0.0074)"
+HSS_Citing_Share,HSS_Citing_Share_p,cs_core_reference_share,CS核心参考文献占比,OLS,15843,HSS_Continuous:cs_core_reference_share,-0.0032593251644833124,0.004860785962214424,0.5025170583200547,R_squared,0.13359642064940647,HSS_Citing_Share ~ HSS_Continuous * cs_core_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0033
+(0.0049)"
+Citation_Entropy,Citation_Entropy_p,reference_field_diversity,参考文献学科数量,OLS,56755,HSS_Continuous:reference_field_diversity,-0.012096175059652714,0.001720606343888746,2.0626490075976496e-12,R_squared,0.3828913736647265,Citation_Entropy ~ HSS_Continuous * reference_field_diversity + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"-0.0121***
+(0.0017)"
+Citation_Entropy,Citation_Entropy_p,reference_entropy,参考文献学科熵,OLS,15843,HSS_Continuous:reference_entropy,0.0339361969536168,0.013734500548943589,0.01347839397454473,R_squared,0.14472539852224975,Citation_Entropy ~ HSS_Continuous * reference_entropy + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0339**
+(0.0137)"
+Citation_Entropy,Citation_Entropy_p,hss_reference_share,HSS参考文献占比,OLS,15843,HSS_Continuous:hss_reference_share,0.03637986247268786,0.032099640464297856,0.2570707684635284,R_squared,0.14428627845092656,Citation_Entropy ~ HSS_Continuous * hss_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0364
+(0.0321)"
+Citation_Entropy,Citation_Entropy_p,cs_core_reference_share,CS核心参考文献占比,OLS,15843,HSS_Continuous:cs_core_reference_share,0.017315428165981184,0.021441188414611918,0.4193336601698292,R_squared,0.14729748778856067,Citation_Entropy ~ HSS_Continuous * cs_core_reference_share + log_team_size + log_prior_knowledge + C(year) + C(arxiv_primary_category),,"0.0173
+(0.0214)"

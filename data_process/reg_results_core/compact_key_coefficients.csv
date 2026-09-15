@@ -1,0 +1,9 @@
+﻿term,D1_Citation_Entropy_AllPapers,D1_Citation_Field_Diversity_AllPapers,D1_HSS_Citing_Share_AllPapers,D1_NonCS_Citation_Share_AllPapers,D2_Citation_Entropy_CitedOnly,D2_Citation_Field_Diversity_CitedOnly,D2_HSS_Citing_Share_CitedOnly,D2_NonCS_Citation_Share_CitedOnly,M1_LogRCR_Continuous_StageFE,M1b_LogRCR_Continuous_YearFE,M2_LogRCR_Threshold_StageFE,M3_LogRCR_StageInteraction,M4_LogRCR_TopicInteraction,M5_Hit10YearCat_Continuous_LPM,M6_Hit10YearCat_Threshold_LPM,M6b_Hit10Year_Continuous_LPM,M6c_Hit10YearCat_Continuous_GLMLogit,R1_LogRCR_Continuous_BroadTopicControl,R2_Hit10YearCat_Continuous_BroadTopicControl
+"C(HSS_Bin, Treatment(reference='Pure STEM'))[T.HSS-dominant]",,,,,,,,,,,0.1161 (0.0177),,,,0.1631 (0.0120),,,,
+"C(HSS_Bin, Treatment(reference='Pure STEM'))[T.High HSS]",,,,,,,,,,,0.0565 (0.0130),,,,0.1438 (0.0095),,,,
+"C(HSS_Bin, Treatment(reference='Pure STEM'))[T.Low HSS]",,,,,,,,,,,-0.0126 (0.0036),,,,0.0194 (0.0028),,,,
+"C(HSS_Bin, Treatment(reference='Pure STEM'))[T.Medium HSS]",,,,,,,,,,,-0.0063 (0.0067),,,,0.1198 (0.0052),,,,
+HSS_Continuous,-0.0062 (0.0012),-0.0292 (0.0054),0.0042 (0.0004),-0.0011 (0.0006),0.0035 (0.0029),-0.0433 (0.0155),0.0231 (0.0011),0.0110 (0.0011),0.0105 (0.0016),0.0176 (0.0015),,-0.0280 (0.0142),0.0032 (0.0020),0.0308 (0.0012),,0.0305 (0.0012),0.1637 (0.0063),0.0109 (0.0016),0.0300 (0.0012)
+HSS_Continuous:C(stage)[T.Phase2],,,,,,,,,,,,0.0138 (0.0148),,,,,,,
+HSS_Continuous:C(stage)[T.Phase3],,,,,,,,,,,,0.0402 (0.0143),,,,,,,
+HSS_Continuous:has_hss_concepts,,,,,,,,,,,,,0.0124 (0.0026),,,,,,

@@ -1,0 +1,25 @@
+{
+  "input_csv": "openalex_reference_stats_output\\genai_regression_enriched_openalex_observable.csv",
+  "n_total_rows": 138829,
+  "n_mechanism_sample": 14236,
+  "hss_var_manual": null,
+  "hss_var_used": "team_hss_dna_pct",
+  "hss_scale_note": "kept_raw_scale",
+  "year_fe_col": "year",
+  "field_fe_col": "arxiv_primary_category",
+  "control_cols": [
+    "log_team_size",
+    "log_prior_knowledge"
+  ],
+  "has_metrics_col": "has_any_openalex_metrics",
+  "mechanism_sample_col": "usable_for_composition_analysis",
+  "refcount_control_col": "log1p_openalex_matched_reference_count",
+  "mechanism_outcome_cols": {
+    "reference_field_diversity": "openalex_reference_field_diversity",
+    "reference_entropy": "openalex_reference_entropy",
+    "hss_reference_share": "hss_share_among_matched_refs",
+    "cs_core_reference_share": "cs_share_among_matched_refs"
+  },
+  "run_refcount_robustness": false,
+  "prefer_arxiv_type_fe": false
+}

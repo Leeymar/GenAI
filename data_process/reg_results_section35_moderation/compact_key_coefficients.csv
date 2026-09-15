@@ -1,0 +1,10 @@
+﻿term,M35_Hit10YearCat_CSCoreRefShare_Moderation,M35_Hit10YearCat_HSSRefShare_Moderation,M35_Hit10YearCat_RefEntropy_Moderation,M35_Hit10YearCat_RefFieldDiversity_Moderation,M35_LogRCR_CSCoreRefShare_Moderation,M35_LogRCR_HSSRefShare_Moderation,M35_LogRCR_RefEntropy_Moderation,M35_LogRCR_RefFieldDiversity_Moderation
+HSS_Continuous,0.0094 (0.0083),-0.0035 (0.0045),-0.0015 (0.0063),0.0012 (0.0068),0.0242 (0.0108),-0.0021 (0.0089),-0.0007 (0.0134),-0.0013 (0.0141)
+HSS_Continuous:cs_core_reference_share,-0.0137 (0.0117),,,,-0.0277 (0.0195),,,
+HSS_Continuous:hss_reference_share,,0.0211 (0.0133),,,,0.0551 (0.0209),,
+HSS_Continuous:reference_entropy,,,0.0027 (0.0075),,,,0.0094 (0.0131),
+HSS_Continuous:reference_field_diversity,,,,-0.0012 (0.0017),,,,-0.0004 (0.0030)
+cs_core_reference_share,0.0567 (0.0141),,,,0.1421 (0.0192),,,
+hss_reference_share,,-0.0602 (0.0372),,,,-0.2099 (0.0556),,
+reference_entropy,,,-0.0172 (0.0085),,,,-0.0493 (0.0133),
+reference_field_diversity,,,,0.0108 (0.0022),,,,0.0205 (0.0041)

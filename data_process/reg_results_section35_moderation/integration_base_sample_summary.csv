@@ -1,0 +1,11 @@
+﻿metric,value
+rows_all,138824
+rows_integration_base,14643
+nonmissing_reference_field_diversity_all,56798
+nonmissing_reference_entropy_all,15845
+nonmissing_hss_reference_share_all,15845
+nonmissing_cs_core_reference_share_all,15845
+nonmissing_reference_field_diversity_base,14643
+nonmissing_reference_entropy_base,14643
+nonmissing_hss_reference_share_base,14643
+nonmissing_cs_core_reference_share_base,14643

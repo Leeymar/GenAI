@@ -1,0 +1,66 @@
+OpenAlex observable reference metrics summary
+======================================================================
+Input file: E:\PythonProject\GenAI\data_process\derived\genai_regression_enriched_v3.csv
+Total rows: 138,829
+
+Detected columns
+----------------------------------------------------------------------
+status_col = None
+year_col = year
+type_col = arxiv_type
+source_col = None
+work_id_col = work_id
+reference_count_total_col = reference_count_total
+reference_count_with_primary_topic_col = reference_count_with_primary_topic
+reference_count_missing_primary_topic_col = reference_count_missing_primary_topic
+
+Status distribution
+----------------------------------------------------------------------
+                NOT_ENRICHED :     82,129 (59.1584%)
+      NO_OPENALEX_REFERENCES :     42,045 (30.2855%)
+          OK_FOR_COMPOSITION :     14,236 (10.2543%)
+               OK_COUNT_ONLY :        419 (0.3018%)
+
+Core diagnostics
+----------------------------------------------------------------------
+n_total_rows                                  : 138829
+n_rows_with_any_openalex_metrics              : 56700
+share_rows_with_any_openalex_metrics          : 0.4084
+n_rows_without_openalex_metrics               : 82129
+n_rows_has_openalex_references                : 14655
+share_rows_has_openalex_references            : 0.2585
+n_rows_no_openalex_references                 : 42045
+n_rows_usable_for_count_analysis              : 56700
+share_rows_usable_for_count_analysis          : 0.4084
+n_rows_usable_for_composition_analysis        : 14236
+share_rows_usable_for_composition_analysis    : 0.1025
+n_blank_status                                : 0
+n_not_enriched                                : 82129
+n_no_openalex_references_status               : 42045
+n_ok_count_only_status                        : 419
+n_ok_for_composition_status                   : 14236
+n_zero_but_raw_composition_not_missing        : 42045
+n_positive_count_but_no_topic_resolved        : 10
+n_topic_resolved_gt_total                     : 0
+n_topic_missing_gt_total                      : 0
+
+Main numeric stats
+----------------------------------------------------------------------
+openalex_matched_reference_count: n=56,700, mean=8.3891, median=0.0000, p25=0.0000, p75=6.0000, max=1,095.00
+log1p_openalex_matched_reference_count: n=56,700, mean=0.8581, median=0.0000, p25=0.0000, p75=1.9459, max=6.9994
+openalex_topic_resolved_reference_count: n=56,700, mean=7.3499, median=0.0000, p25=0.0000, p75=5.0000, max=905.0000
+openalex_topic_missing_reference_count: n=56,700, mean=1.0392, median=0.0000, p25=0.0000, p75=0.0000, max=190.0000
+openalex_reference_field_diversity: n=14,236, mean=2.7287, median=2.0000, p25=1.0000, p75=4.0000, max=22.0000
+openalex_reference_entropy: n=14,236, mean=0.4121, median=0.3025, p25=0.0000, p75=0.6733, max=2.0138
+hss_share_among_matched_refs: n=14,236, mean=0.0334, median=0.0000, p25=0.0000, p75=0.0286, max=1.0000
+cs_share_among_matched_refs: n=14,236, mean=0.8027, median=0.9231, p25=0.7212, p75=1.0000, max=1.0000
+
+Interpretation notes
+----------------------------------------------------------------------
+1. 这里的 reference count 是 OpenAlex 可观测/可匹配参考文献数，不等于论文真实参考文献总数。
+2. 对 count=0 或 topic_resolved_count 不足的行，entropy/diversity/share 这类组成指标记为 NA，而不是 0。
+3. 组成指标只在 topic_resolved_reference_count >= 5 的样本里进入分析。
+4. 回归建议拆成三层：
+   - has_openalex_references
+   - log1p_openalex_matched_reference_count
+   - 组成型指标（只在 usable_for_composition_analysis == 1 的子样本里）
